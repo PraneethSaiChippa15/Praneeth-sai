@@ -54,6 +54,12 @@ body {
         }
         .project-details {
             float: left;
+            width: 100%;
+            padding: 5px;
+            flex: 1; /* Allow the text to take up remaining space */
+        }
+        .project-details-certi {
+            float: left;
             width: 500px;
             height: 500px;
             padding: 2px;
